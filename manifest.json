@@ -1,0 +1,44 @@
+{
+  "name": "Tallybooks - Business Management System",
+  "short_name": "Tallybooks",
+  "description": "Complete business management and POS system",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "finance", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "New Sale",
+      "short_name": "Sale",
+      "description": "Create a new sale",
+      "url": "/sales",
+      "icons": []
+    },
+    {
+      "name": "Products",
+      "short_name": "Products",
+      "description": "View products",
+      "url": "/products",
+      "icons": []
+    },
+    {
+      "name": "Reports",
+      "short_name": "Reports",
+      "description": "View reports",
+      "url": "/reports",
+      "icons": []
+    }
+  ],
+  "prefer_related_applications": false
+}
